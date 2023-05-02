@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    /* background-color: red; */
+    display: grid;
+    place-items: center;
+    background: linear-gradient(90deg, rgb(36, 0, 36) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(243,70,252,1) 100%);
+
+    
+}
+.container{
+    width:40%;
+    height:300px;
+   border:5px solid rgb(9, 169, 181);
+   background-color: rgb(103, 212, 224);
+   box-shadow:4px 4px 4px rgb(62, 61, 61);
+   text-align: center;
+   /* margin: auto; */
+   /* margin-top:150px; */
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   align-items: center;
+   justify-content: space-around;
+
+    
+}
+
+.jokes{
+    /* border: 1px solid; */
+    margin: 0 5px;
+    padding: 0 10px;
+    font-size: 1.2rem;
+}
+
+.btn{
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.btn:hover
+{
+    background-color: rgb(242, 64, 203);
+    color: black;
+}
+
+
+/* .heading{
+     padding:10px; 
+     color:rgb(143, 142, 142) 
+    
+}
+.jokes{
+    font-size: 1.5rem;    
+}
+
+
+.btn{
+    margin-bottom:10px;
+    background-color: rgba(241, 85, 210, 0.993);
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgb(94, 94, 94);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border:rgb(107, 3, 84);
+    font-size: 0.9rem;
+} */
