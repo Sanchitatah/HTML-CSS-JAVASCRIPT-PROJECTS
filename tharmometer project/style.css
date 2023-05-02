@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(40, 26, 28);
+}
+.main-heading{
+    justify-content: space-around;
+    text-shadow: 2px 4px 8px gray;
+    color: aliceblue;
+    font-size: 90px;
+    
+}
