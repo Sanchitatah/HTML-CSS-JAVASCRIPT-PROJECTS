@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:4rem;
+}
+.search{
+    display: flex;
+    width: 50%;
+    max-width: 37rem;
+}
+.search input{
+    padding: 10px 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #a21caf;
+}
+.search input:focus-visible{
+    outline: 1.2px solid #a21caf;
+}
+.primary-btn{
+    background: #a21caf;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 1rem;
+
+}
+.primary-btn:hover{
+    background: #701a75;
+    cursor: pointer;
+}
+.primary-btn:active{
+    background: #d946ef;
+    
+}
+
+/* for card */
+#profileContainer{
+    width:100%;
+}
+.profile-box{
+    margin: auto;
+    padding: 3rem 1.5rem;
+    width:90%;
+    max-width: 48rem;
+    box-shadow: 2px 2px 20px  rgb(172, 169, 169);
+    transition: 1s transform ;
+}
+.profile-box:hover{
+    transform: scale(1.05);
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+}
+.top-section button{
+    align-self: center;
+}
+.check{
+    padding: 0.6rem 0.8rem;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+
+}
+.self{
+    font-size:1rem;
+}
+.self h2{
+    color: #52525b;
+    font-weight:600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.avatar{
+    height:7rem ;
+    width:7rem;  
+}
+.avatar img{
+    height:100% ;
+    width:100%;
+    border-radius: 50%;
+}
+
+.about{
+    margin: 1rem;
+}
+.about p{
+    color:#52525b;
+}
+
+.status{
+    display:flex;
+    justify-content: space-around;
+}
+.status-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.status-item p{
+    margin-top: 5px;
+    color: #52525b;
+   
+}
