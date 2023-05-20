@@ -9,6 +9,6 @@
 | 3   |                   [Dad-Jokes](https://dad-jokes-sanchita.netlify.app/)                              |
 | 4   |                   [Tharmometer](https://tharmometer-sanchita.netlify.app/)                          |
 | 5   |                   [Increment-Operator](https://increment-operator-sanchita.netlify.app/)            |
-| 6   |                   [Temperature-convertor](https://temperature-convertor-sanchita.netlify.app/)      |
+| 6   |                   [Temperature-convertor](https://temperature-convertor-sanchita.netlify.app/ )      |
 
  
